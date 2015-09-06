@@ -1,0 +1,208 @@
+
+---
+posts:
+  columns:
+  - id
+  - title
+  - content
+  - created_at
+  - updated_at
+  - category_id
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  records: 
+  - - 8
+    - post 3
+    - ehsjjkj  hd jd  drfj d
+    - '2015-08-19 21:00:33.871794'
+    - '2015-08-24 19:24:09.719673'
+    - 3
+    - 
+    - 
+    - 
+    - 
+  - - 9
+    - post 4
+    - seghshsj
+    - '2015-08-19 21:02:30.510700'
+    - '2015-08-19 21:02:30.510700'
+    - 2
+    - bmw.jpg
+    - image/jpeg
+    - 217096
+    - '2015-08-19 21:02:28.782014'
+  - - 10
+    - post 4
+    - gehjdfjdfjdf
+    - '2015-08-20 18:44:49.293337'
+    - '2015-08-20 18:44:49.293337'
+    - 1
+    - logo.png
+    - image/png
+    - 22729
+    - '2015-08-20 18:44:48.149728'
+  - - 11
+    - nowości
+    - vfmjszkndikidgisdgasj
+    - '2015-08-24 19:00:51.829767'
+    - '2015-08-24 19:00:51.829767'
+    - 3
+    - 
+    - 
+    - 
+    - 
+  - - 12
+    - nowy pościk
+    - dupa dupa dupa
+    - '2015-08-24 19:27:40.208092'
+    - '2015-08-24 19:39:49.524489'
+    - 2
+    - bmw.jpg
+    - image/jpeg
+    - 217096
+    - '2015-08-24 19:39:48.558507'
+  - - 13
+    - test
+    - test
+    - '2015-08-24 20:25:55.873915'
+    - '2015-08-24 20:25:55.873915'
+    - 2
+    - 10658561_10155644448480582_5429775293954588036_o.jpg
+    - image/jpeg
+    - 214612
+    - '2015-08-24 20:25:54.787809'
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Newsy
+    - '2015-08-19 20:02:26.568990'
+    - '2015-08-24 20:16:43.080821'
+  - - 2
+    - Porady
+    - '2015-08-19 20:02:37.131307'
+    - '2015-08-24 20:16:23.197787'
+  - - 3
+    - Sport
+    - '2015-08-19 20:02:46.810528'
+    - '2015-08-24 20:15:57.520266'
+  - - 4
+    - Ulubione
+    - '2015-08-24 20:15:33.955379'
+    - '2015-08-24 20:15:33.955379'
+
+---
+comments:
+  columns:
+  - id
+  - author
+  - content
+  - created_at
+  - updated_at
+  - post_id
+  records: 
+  - - 1
+    - michal
+    - dupa dupa dupa
+    - '2015-08-20 21:16:00.086265'
+    - '2015-08-20 21:16:00.086265'
+    - 
+  - - 2
+    - michal
+    - dupa
+    - '2015-08-20 21:18:54.580693'
+    - '2015-08-20 21:18:54.580693'
+    - 
+  - - 3
+    - piotrek
+    - dupa2
+    - '2015-08-20 21:26:40.957234'
+    - '2015-08-20 21:26:40.957234'
+    - 10
+  - - 4
+    - dupek
+    - to jest komnetarz do posta 4
+    - '2015-08-21 20:07:26.399196'
+    - '2015-08-21 20:07:26.399196'
+    - 10
+  - - 5
+    - asiodpasip
+    - to jest komentarz do bmw samochody t moj swoat
+    - '2015-08-21 20:07:57.411456'
+    - '2015-08-24 20:22:45.390572'
+    - 9
+
+---
+admin_users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - admin@example.com
+    - "$2a$10$uqU4eTGX7CXu1apAG17AN.IWquM6pSWYp0If8AoBdkeJ2X2XZKGiS"
+    - 
+    - 
+    - 
+    - 2
+    - '2015-08-24 19:59:51.551732'
+    - '2015-08-24 18:39:42.833056'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2015-08-24 18:38:12.795477'
+    - '2015-08-24 20:17:53.289538'
+  - - 2
+    - proszek997@gmail.com
+    - "$2a$10$SqtP6Veo4O8lzL4Yd8/9z.rG9EwFbvHjb.sXwW4qjlEwx8tF0SLVO"
+    - 
+    - 
+    - '2015-08-24 20:18:02.655782'
+    - 1
+    - '2015-08-24 20:18:02.779799'
+    - '2015-08-24 20:18:02.779799'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2015-08-24 20:17:46.300722'
+    - '2015-08-24 20:18:02.781780'
+
+---
+active_admin_comments:
+  columns:
+  - id
+  - namespace
+  - body
+  - resource_id
+  - resource_type
+  - author_id
+  - author_type
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - admin
+    - Ta kategorie to trzeba by wywalić
+    - '4'
+    - Category
+    - 1
+    - AdminUser
+    - '2015-08-24 20:17:10.723506'
+    - '2015-08-24 20:17:10.723506'
