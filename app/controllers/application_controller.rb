@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   def show_categories
   	@categories = Category.all
-  	@header = "Dupa"
+  	@header = "Witaj na blogu"
   end
 
 end
