@@ -10,6 +10,8 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
+    @posts = @category.posts.reverse_order.paginate(:page => params[:page], :per_page => 2)
+    # @posts = Post.find(params[:id]).reverse_order.paginate(:page => params[:page], :per_page => 2)
   end
 
   # GET /categories/new

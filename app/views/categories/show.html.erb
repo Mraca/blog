@@ -1,7 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+<% @posts.each do |post| %>
+  <div class="post">
+    <%= image_tag post.image.url(:full) %>
+    <h4><%= link_to post.title, post %> | w: <span class="muted"><%= post.category.name %></span></h4>
+    <hr>
+    <p><%= post.content %></p>
+  </div>
+<% end %>
+<%= will_paginate @posts %>
 
