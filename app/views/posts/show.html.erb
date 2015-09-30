@@ -7,6 +7,8 @@
     <p><%= @post.content %></p>
   </div>
 
+<% if @comments.present? then %>
+
   <div class="comments_form comments">
   	<% @comments.each do |c| %>
       <p><%= c.author %></p>
@@ -14,6 +16,8 @@
       <hr>
     <% end %>
   </div>
+
+  <% end %>
 
   <div class="comments_form">
   	<%= render :partial => 'comments/form' %>
