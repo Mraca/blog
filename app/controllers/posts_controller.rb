@@ -10,10 +10,11 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
-
     @comments = @post.comments
     @comment = Comment.new
+    @rel_post = @post.category.posts.reverse_order
   end
+
 
   # GET /posts/new
   # def new
